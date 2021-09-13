@@ -15,23 +15,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header></header>
-  <main class="main">
-    <div class="search-field">
+  <header style="text-align: center; font-weight: 800;"> <h1> Ding Ding Digana Store </h1></header>
+  <main class="main">    
       <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
+        <input id="input-field" class="search-field" placeholder="Type here" type="text" />
+        <button type="button" 
+          autocomplete="off" id="search-btn" class="button-style" onclick="loadProducts()">
           Search
         </button>
       </div>
-    </div>
+    
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
-        <div id="all-products" class="">
+        <div id="all-products" class="all-products">
           <!-- <h1>somthing wrong here </h1> -->
         </div>
         <!-- <h1>hello where are you</h1> -->
