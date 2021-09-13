@@ -89,6 +89,7 @@ body {
   margin: 2px;
   position: relative;
   background-color: rgb(118, 180, 221);
+  font-weight: 600;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
